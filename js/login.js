@@ -9,9 +9,10 @@ document.getElementById('login-submit').addEventListener('click', function(){
 
     //check user email and password
     if(userEmail == 'abc@gmail.com' && userPassword == 'secret'){
-        console.log('this is right');
+        // console.log('this is right');
         window.location.href ='banking.html';
 
     }
 
-})
+});
+
