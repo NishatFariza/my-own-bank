@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Banking Page</title>
+    <!-- css link  -->
+    <link rel="stylesheet" href="style.css" />
     <!-- tailwind cdn link -->
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
@@ -36,13 +38,13 @@
       <!-- balance and transsction end -->
 
       <!-- Deposit and Withdraw start -->
-      <section class="my-16">
+      <section class="my-8">
         <div class="grid grid-cols-2 gap-6">
           <div class="bg-white p-10 rounded-lg shadow-lg shadow-gray-500">
             <h3 class="text-2xl mb-4 font-semibold">Please Deposit</h3>
             <div>
               <input
-                id="deposite-amount"
+                id="deposit-input"
                 class="border block border-gray-200 rounded w-3/4 mb-4 px-2 py-3"
                 type="email"
                 name=""
@@ -50,8 +52,8 @@
                 placeholder="$ Amount You Want To Deposite"
               />
               <button
-                id="login-submit"
-                class="bg-purple-600 text-white py-2 px-4 rounded font-semibold"
+                id="deposit-button"
+                class="bg-purple-600 text-white py-2 px-4 rounded"
                 type="submit"
               >
                 Deposit
@@ -62,7 +64,7 @@
             <h3 class="text-2xl mb-4 font-semibold">Please Withdraw</h3>
             <div>
               <input
-                id="withdraw-amount"
+                id="withdraw-input"
                 class="border block border-gray-200 rounded w-3/4 mb-4 px-2 py-3"
                 type="email"
                 name=""
@@ -70,11 +72,11 @@
                 placeholder="$ Amount You Want To Withdraw"
               />
               <button
-                id="login-submit"
-                class="bg-purple-600 text-white py-2 px-4 rounded font-semibold"
+                id="withdraw-button"
+                class="bg-purple-600 text-white py-2 px-4 rounded"
                 type="submit"
               >
-                Deposit
+                Withdraw
               </button>
             </div>
           </div>
